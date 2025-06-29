@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquiler de Equipos - Mi Empresa</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body style="opacity: 0; transition: opacity 0.5s ease-in;">
+    <header>
+        <div class="logo">
+            <h1>Mi Empresa</h1>
+        </div>
+        <nav class="menu-principal">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="../productos.html">Productos</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../productos/reflex.html">REFLEX</a></li>
+                        <li><a href="../productos/ageo.html">AGEO</a></li>
+                        <li><a href="../productos/elcontrol.html">ELCONTROL</a></li>
+                        <li><a href="../productos/skb.html">SKB</a></li>
+                        <li><a href="../productos/merytronic.html">Merytronic</a></li>
+                        <li><a href="../productos/kangmeter.html">KANGMETER</a></li>
+                    </ul>
+                </li>
+                <li><a href="../nosotros.html">Sobre Nosotros</a></li>
+                <li class="dropdown active">
+                    <a href="../servicios.html">Servicios</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="capacitacion.html">Capacitación</a></li>
+                        <li><a href="asistencia-tecnica.html">Asistencia Técnica</a></li>
+                        <li><a href="alquiler.html">Alquiler</a></li>
+                        <li><a href="medicion.html">Medición</a></li>
+                        <li><a href="calibracion.html">Calibración</a></li>
+                    </ul>
+                </li>
+                <li><a href="../noticias.html">Noticias</a></li>
+                <li><a href="../contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero parallax" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1605152276897-4f618f831968?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); min-height: 300px;">
+            <div class="container" style="text-align: center; padding: 5rem 2rem;">
+                <h1 class="page-title" style="color: var(--text-light); margin-bottom: 1rem;">Alquiler de Equipos Especializados</h1>
+                <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto; color: var(--text-light);">Soluciones temporales con equipos de última generación</p>
+            </div>
+        </section>
+
+        <section class="container" style="padding: 3rem 1rem;">
+            <div class="card" style="margin-bottom: 2rem; text-align: center;">
+                <h2 style="color: var(--primary); margin-bottom: 1rem;">Nuestro Servicio de Alquiler</h2>
+                <p style="color: var(--text-light);">Ofrecemos equipos de medición y control industrial en modalidad de alquiler para proyectos temporales, emergencias o períodos de mantenimiento.</p>
+            </div>
+            
+            <div class="grid-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+                <div class="card hover-effect">
+                    <div style="height: 200px; background-color: var(--primary); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                        <i class="fas fa-tachometer-alt" style="font-size: 3rem; color: white;"></i>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Medidores de Flujo</h3>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Precisión ±0.5%</p>
+                        <p style="color: var(--text-light); margin-bottom: 1.5rem;">Desde $50/día</p>
+                        <a href="../contacto.html" class="btn">Solicitar</a>
+                    </div>
+                </div>
+                
+                <div class="card hover-effect">
+                    <div style="height: 200px; background-color: var(--primary); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                        <i class="fas fa-thermometer-half" style="font-size: 3rem; color: white;"></i>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Termómetros Industriales</h3>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Rango -50°C a 500°C</p>
+                        <p style="color: var(--text-light); margin-bottom: 1.5rem;">Desde $35/día</p>
+                        <a href="../contacto.html" class="btn">Solicitar</a>
+                    </div>
+                </div>
+                
+                <div class="card hover-effect">
+                    <div style="height: 200px; background-color: var(--primary); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                        <i class="fas fa-compress-arrows-alt" style="font-size: 3rem; color: white;"></i>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Transmisores de Presión</h3>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">4-20mA / HART</p>
+                        <p style="color: var(--text-light); margin-bottom: 1.5rem;">Desde $60/día</p>
+                        <a href="../contacto.html" class="btn">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card" style="margin-bottom: 2rem;">
+                <h2 style="color: var(--primary); margin-bottom: 1rem; text-align: center;">Condiciones de Alquiler</h2>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; color: var(--primary); display: flex; align-items: center;">
+                            <i class="fas fa-calendar-alt" style="margin-right: 0.5rem;"></i> Período Mínimo
+                        </h4>
+                        <p style="color: var(--text-light);">3 días para equipos estándar</p>
+                    </div>
+                    
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; color: var(--primary); display: flex; align-items: center;">
+                            <i class="fas fa-truck" style="margin-right: 0.5rem;"></i> Transporte
+                        </h4>
+                        <p style="color: var(--text-light);">Incluido en Lima Metropolitana</p>
+                    </div>
+                    
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; color: var(--primary); display: flex; align-items: center;">
+                            <i class="fas fa-shield-alt" style="margin-right: 0.5rem;"></i> Seguro
+                        </h4>
+                        <p style="color: var(--text-light);">Opción de seguro contra daños</p>
+                    </div>
+                    
+                    <div>
+                        <h4 style="margin-bottom: 0.5rem; color: var(--primary); display: flex; align-items: center;">
+                            <i class="fas fa-cog" style="margin-right: 0.5rem;"></i> Mantenimiento
+                        </h4>
+                        <p style="color: var(--text-light);">Incluye mantenimiento preventivo</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card" style="background-color: var(--primary); color: white; text-align: center; padding: 2rem;">
+                <h2 style="margin-bottom: 1rem;">¿Necesitas un equipo especial?</h2>
+                <p style="margin-bottom: 1.5rem;">Contamos con una amplia variedad de instrumentos disponibles para alquiler.</p>
+                <a href="../contacto.html" class="btn" style="background-color: white; color: var(--primary);">Consultar Disponibilidad</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mi Empresa</h3>
+                    <p>Líderes en soluciones tecnológicas industriales desde 2010, ofreciendo productos de calidad y servicio excepcional.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Industrial 1234, Ciudad</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 8901</p>
+                    <p><i class="fas fa-envelope"></i> info@miempresa.com</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <a href="../index.html">Inicio</a>
+                    <a href="../productos.html">Productos</a>
+                    <a href="../servicios.html">Servicios</a>
+                    <a href="../contacto.html">Contacto</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Mi Empresa. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+    </script>
+</body>
+</html>
