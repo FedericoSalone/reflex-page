@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // ========== CÓDIGO EXISTENTE ==========
   // Menú activo
-  const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+  const currentPage = window.location.pathname.split('/').pop() || '/index.html';
   const menuItems = document.querySelectorAll('.menu-principal a');
   
   menuItems.forEach(item => {
