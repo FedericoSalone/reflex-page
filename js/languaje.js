@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     langFlag.width = 30;
     langFlag.height = 20;
     langFlag.alt = currentLang === 'es' ? 'Español' : 'English';
-    langFlag.src = currentLang === 'es' ? '/images/argentina-flag.png' : '/images/uk-flag.png';
+    langFlag.src = currentLang === 'es' ? 'images/argentina-flag.png' : 'images/uk-flag.png';
     
     langToggle.appendChild(langFlag);
     document.body.appendChild(langToggle);
@@ -38,8 +38,8 @@ function updateFlag(lang) {
   const langFlag = document.getElementById('language-flag');
   if (langFlag) {
     langFlag.src = lang === 'es' 
-      ? '/images/argentina-flag.png' 
-      : '/images/uk-flag.png';
+      ? 'images/argentina-flag.png' 
+      : 'images/uk-flag.png';
     langFlag.alt = lang === 'es' ? 'Español' : 'English';
   }
 }
